@@ -1,0 +1,61 @@
+html {
+
+}
+body {
+   background-image: url(background.jpg);
+   background-size: cover;
+   height: 100vh;
+
+}
+div {
+    size: 200ch;
+    color: #FFFFFF;
+    opacity: 20%;
+}
+h1 {
+    font-family: "Saira";
+    font-variant: "Extra Condensed";
+    font-size: 65px;
+    color: #FFFFFF;
+    max-width: 200ch;
+}
+hr {
+   hr: linear-gradient(#400406,#FFFFFF);
+}
+h2 {
+    font-family: "Oswald";
+    font-style: "ExtraLight";
+    font-size: 30px;
+    color: #FFFFFF;
+}
+body {
+    font-family: "Montserrat";
+    font-weight: "medium";
+    font-size: 20px;
+    color: #FFFFFF;
+    max-width: 60ch;
+    height: auto;
+}
+form input {
+  font-family: 'Montserrat' sans-serif;
+  font-size: 15px;
+  padding: 1rem 2rem 1rem 2rem;
+  border: 0;
+}
+form input:focus {
+    outline: none;
+}
+form input[type="text"] {
+  border-radius: 10px 0 0 10px;
+  padding-left: .9rem;
+}
+form input[type="button"] {
+  border-radius: 0 9px 9px 0;
+  background-color: #400406;
+  color: #FFFFFF;
+  font-weight: bold;
+
+}
+form input[type="button"]:active {
+  background-color: #4B2E39;
+}
